@@ -8,19 +8,18 @@ public class NumeroPrimo {
             Variables: a = 29.
          */
         int numero = 29;
-        int maximo = Math.round(numero/2);
-
+        int maximo = Math.round(numero / 2);
         if (numero % 2 == 0) {
             System.out.println("Número no es  primo, es par");
             return;
         } else {
-            for (int i = 3; i < maximo; i = i+2) {
+            for (int i = 3; i < maximo; i = i + 2) {
                 if (numero % i == 0) {
                     System.out.println("Número NO es primo");
                     return;
                 }
-            }   System.out.println("Número es PRIMO");
+            }
+            System.out.println("Número es PRIMO");
         }
     }
 }
-
