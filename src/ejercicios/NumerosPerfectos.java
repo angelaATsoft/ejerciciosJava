@@ -7,9 +7,8 @@ public class NumerosPerfectos {
            Un número perfecto es aquel cuya suma de sus divisores (excluyendo el número mismo)
            es igual al número.
            Variables: a = 28.
-           Otros ejemplos: 6, 28, 496, 8128, 33550336, 8589869056, 137438691328, 2305843008139952128
          */
-        int numero = 28;
+        int numero = 29;
         int maximo = Math.round(numero/2);
         int sumatoria = 0;
 
@@ -20,9 +19,9 @@ public class NumerosPerfectos {
         }
 
         if (numero == sumatoria) {
-            System.out.println("Número es perfecto");
+            System.out.println("Número " + numero + " es perfecto");
         } else {
-            System.out.println("Número NO es perfecto");
+            System.out.println("Número " + numero + " NO es perfecto");
         }
     }
 }

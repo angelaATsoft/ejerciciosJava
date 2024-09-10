@@ -8,15 +8,15 @@ public class IntercambioValores {
            Variables: a = 5, b = 10.
          */
 
-        int x = 5;
-        int y = 10;
+        int a = 5;
+        int b = 10;
 
-        System.out.println("Valor inicial de x: " + x);
-        System.out.println("Valor inicial de y: " + y);
-        x = (x + y);
-        y = (x - y);
-        x = (x - y);
-        System.out.println("Valor de X intercambiado por y: " + x);
-        System.out.println("Valor de Y intercambiado por x: " + y);
+        System.out.println("Valor inicial de a: " + a);
+        System.out.println("Valor inicial de b: " + b);
+        a = (a + b);
+        b = (a - b);
+        a = (a - b);
+        System.out.println("Valor intercambiado de a: " + a);
+        System.out.println("Valor intercambiado de b: " + b);
     }
 }

@@ -1,6 +1,6 @@
 package ejercicios;
 
-public class FactorialNumero {
+public class Factorial {
     public static void main(String[] args) {
         /* 10. Factorial de un número
         Descripción: Dado el número a = 6, calcula su factorial.

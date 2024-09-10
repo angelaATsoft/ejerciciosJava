@@ -7,8 +7,7 @@ public class NumeroParImpar {
             Un número es par si es divisible por 2, y es impar si no lo es.
             Variables: a = 15. */
         int a = 15;
-        int total = a / 2;
-        if (total % 2 == 0) {
+        if ((a % 2) == 0) {
             System.out.println("Numero "+a + " es par" );
         } else {
             System.out.println("Numero "+a + " es impar" );

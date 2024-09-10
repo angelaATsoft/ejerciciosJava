@@ -1,20 +1,19 @@
 package ejercicios;
 
-public class MCDconDivisores {
+public class MaximoComunDivisor {
     public static void main(String[] args) {
         /* 28. Calcular el máximo común divisor (MCD)
            Descripción: Dados los números a = 48 y b = 18, calcula su MCD (máximo común divisor).
            El MCD es el número más grande que divide exactamente a ambos números.
            Variables: a = 48, b = 18.
          */
-        //        Character.getNumericValue
         int a = 48;
         int b = 18;
         int x = 0;
         int y = 0;
 
-        int[] divisorA = new int[a/3];
-        int[] divisorB = new int[b/3];
+        int[] divisorA = new int[a/2];
+        int[] divisorB = new int[b/2];
 
         for (int i = 1; i <= a; i++) {
             if (a % i == 0){
