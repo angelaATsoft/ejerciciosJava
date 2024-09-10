@@ -6,6 +6,7 @@ public class TablaMultiplicar {
             Descripción: Genera la tabla de multiplicar del número a = 7.
             Variables: a = 7.
          */
+
         int a = 7;
         int ultimoNro = 10;
         System.out.println("Tabla de Multiplicar del número: " + a );

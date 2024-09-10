@@ -9,9 +9,9 @@ public class NumeroParImpar {
         int a = 15;
         int total = a / 2;
         if (total % 2 == 0) {
-            System.out.println("Numero "+a + " es par" );
+            System.out.println("Numero "+ a + " es par" );
         } else {
-            System.out.println("Numero "+a + " es impar" );
+            System.out.println("Numero "+ a + " es impar" );
         }
 
     }

@@ -8,6 +8,7 @@ public class FactorialNumero {
         desde 1 hasta el número dado.
         Variables: a = 6.
          */
+
         int a = 6;
         int factorial = 1;
         for (int i = 1; i <= a; i = i + 1) {

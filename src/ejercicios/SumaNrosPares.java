@@ -7,6 +7,7 @@ public class SumaNrosPares {
         Un número es par si es divisible por 2.
         Variables: a = 1, b = 100.
          */
+
         int a = 1;
         int b = 100;
         int sumaPares = 0;

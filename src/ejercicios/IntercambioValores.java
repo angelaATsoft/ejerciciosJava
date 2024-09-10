@@ -16,7 +16,7 @@ public class IntercambioValores {
         x = (x + y);
         y = (x - y);
         x = (x - y);
-        System.out.println("Valor de X intercambiado por y: " + x);
-        System.out.println("Valor de Y intercambiado por x: " + y);
+        System.out.println("Valor intercambiado de X: " + x);
+        System.out.println("Valor intercambiado de Y: " + y);
     }
 }

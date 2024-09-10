@@ -7,6 +7,7 @@ public class SumaDigitos {
             El resultado sería 5 + 6 + 7 + 8 = 26.
             Variables: a = 5678.
          */
+
         int a = 5678;
         String numeroString = Integer.toString(a);
         char[] cadena = numeroString.toCharArray();
@@ -14,6 +15,6 @@ public class SumaDigitos {
         for (int i = 0; i < cadena.length; i++) {
             sumaDigito = sumaDigito + Character.getNumericValue(cadena[i]);
         }
-        System.out.println("Sumatoria de los dígitos " + a + " es: " + sumaDigito);
+        System.out.println("La sumatoria de los dígitos de " + a + " es: " + sumaDigito);
     }
 }

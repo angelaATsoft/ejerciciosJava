@@ -7,11 +7,12 @@ public class PromedioNumeros {
             calcula el promedio de los tres.
             Variables: a = 4, b = 9, c = 13.
         */
+
         int a = 4;
         int b = 9;
         int c = 13;
         float promedio = (a + b + c)/3 ;
 
-        System.out.println("El promedio de " + a + ", " + b +", " + c + " es: " + promedio);
+        System.out.println("El promedio de " + a + ", " + b +", " + c + " es: " + Math.round(promedio));
     }
 }

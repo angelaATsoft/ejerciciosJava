@@ -7,6 +7,7 @@ public class AreaCirculo {
             calcula su área usando la fórmula: Area = pi * r2
             Variables: r = 7.
          */
+
         int r = 7;
         double pi = 3.14;
         double area = pi * r * r;

@@ -7,6 +7,7 @@ public class SumarMultiplos {
            Un múltiplo de un número es el resultado de multiplicarlo por un entero.
            Variables: a = 3, rango de 1 a 50.
          */
+
         int a = 3;
         int rangoInicial = 1;
         int rangoFinal = 50;

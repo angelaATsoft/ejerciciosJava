@@ -16,16 +16,14 @@ public class NumeroMaximo {
             if (a > c) {
                 System.out.println("Máximo valor es la variable A: " + a);
             } else {
-                System.out.println("Máximo valor es la variable C1: " + c);
+                System.out.println("Máximo valor es la variable C: " + c);
             }
         } else {
             if (b > c) {
                 System.out.println("Máximo valor es la variable B: " + b);
             } else {
-                System.out.println("Máximo valor es la variable C2: " + c);
+                System.out.println("Máximo valor es la variable C: " + c);
             }
         }
-
-
     }
 }

@@ -7,6 +7,7 @@ public class Palindromo {
             es decir, si se lee igual de izquierda a derecha que de derecha a izquierda.
             Variables: a = 1221.
          */
+
         int a = 1221;
         String numeroString = Integer.toString(a);
         char[] cadena = numeroString.toCharArray();

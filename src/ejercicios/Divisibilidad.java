@@ -7,6 +7,7 @@ public class Divisibilidad {
         Un número es divisible por otro si al dividir el resultado es un número entero sin resto.
         Variables: a = 45.
         */
+
         int a = 45;
 
         if (a % 2 == 0) {

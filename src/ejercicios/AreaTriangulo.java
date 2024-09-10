@@ -8,9 +8,10 @@ public class AreaTriangulo {
            Area = 1/2 * Base * Altura
             Variables: b = 5, h = 8.
          */
+
         double b = 5;
-        double h = 7;
+        double h = 8;
         double area = (b*h)/2;
-        System.out.println("El area del triángulo, con Base (b) " + b + " y Altura (h) " + h + " es: " + area);
+        System.out.println("El area de un triángulo con Base (b) " + Math.round(b) + " y Altura (h) " + Math.round(h) + " es: " + Math.round(area));
     }
 }

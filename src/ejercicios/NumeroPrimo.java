@@ -10,16 +10,15 @@ public class NumeroPrimo {
         int numero = 29;
         int maximo = Math.round(numero / 2);
         if (numero % 2 == 0) {
-            System.out.println("Número no es  primo, es par");
-            return;
+            System.out.println("El número " + numero + " no es primo, es par");
         } else {
             for (int i = 3; i < maximo; i = i + 2) {
                 if (numero % i == 0) {
-                    System.out.println("Número NO es primo");
+                    System.out.println("El número " + numero + " NO es primo");
                     return;
                 }
             }
-            System.out.println("Número es PRIMO");
+            System.out.println("El número " + numero + " es PRIMO");
         }
     }
 }

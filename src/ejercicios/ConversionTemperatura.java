@@ -8,6 +8,7 @@ public class ConversionTemperatura {
             F = 9/5 * C + 32
             Variables: c = 25.
          */
+
         int c = 25;
         float F = (9 * c)/5 + 32;
 

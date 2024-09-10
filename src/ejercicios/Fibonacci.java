@@ -8,6 +8,7 @@ public class Fibonacci {
             La secuencia comienza con 0 y 1.
             Variables: N = 10.
          */
+
         int N = 10;
         int anterior1 = 0;
         int anterior2 = 1;

@@ -17,7 +17,6 @@ public class DecimalABinario {
                 binario = "1" + binario;
             }
             b =  Math.round(b/2);
-            System.out.println(binario);
         }
         System.out.println("El binario de " + a + " es " + binario );
     }

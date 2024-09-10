@@ -7,6 +7,7 @@ public class ConteoDigitos {
            El resultado sería 6 dígitos.
            Variables: a = 987654.
          */
+
         int a = 987654;
         String numeroString = Integer.toString(a);
         char[] cadena = numeroString.toCharArray();
