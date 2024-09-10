@@ -16,7 +16,6 @@ public class RaizCuadrada {
             x = (x + a / x) / 2;
         };
 
-        System.out.println(x);
         if ((x % 1) == 0){
             System.out.println("La raíz cuadrada de " + a + " es: " + Math.round(x));
         } else {

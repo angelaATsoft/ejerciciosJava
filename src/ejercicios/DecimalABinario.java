@@ -6,8 +6,7 @@ public class DecimalABinario {
             Descripción: Dado el número decimal a = 45, conviértelo a binario.
             Variables: a = 45.
          */
-
-        int a = 45;
+        int a = 23519;
         int b = a;
         String binario = "";
         while (b > 0) {
@@ -17,7 +16,6 @@ public class DecimalABinario {
                 binario = "1" + binario;
             }
             b =  Math.round(b/2);
-            System.out.println(binario);
         }
         System.out.println("El binario de " + a + " es " + binario );
     }

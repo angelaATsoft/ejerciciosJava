@@ -1,6 +1,6 @@
 package ejercicios;
 
-public class PromedioNumeros {
+public class Promedio3Numeros {
     public static void main(String[] args) {
         /* 6. Promedio de tres números
             Descripción: Dados los números a = 4, b = 9 y c = 13,
@@ -12,6 +12,6 @@ public class PromedioNumeros {
         int c = 13;
         float promedio = (a + b + c)/3 ;
 
-        System.out.println("El promedio de " + a + ", " + b +", " + c + " es: " + promedio);
+        System.out.println("El promedio de " + a + ", " + b +", " + c + " es: " + Math.round(promedio));
     }
 }
